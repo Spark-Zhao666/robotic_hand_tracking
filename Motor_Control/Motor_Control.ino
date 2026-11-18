@@ -1,5 +1,6 @@
 const int motorPin = 9;
 void setup() {
+  // Temporary Setup
   pinMode(motorPin, OUTPUT);
   digitalWrite(motorPin, LOW);
   delay(10000);
